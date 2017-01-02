@@ -1,0 +1,26 @@
+{
+  "name": "mixed-fixtures",
+  "version": "1.0.0",
+  "description": "Small handy test setup/teardown fixtures for establishing state",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredridel/mixed-fixtures.git"
+  },
+  "author": "Aria Stewart <aredridel@dinhe.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aredridel/mixed-fixtures/issues"
+  },
+  "homepage": "https://github.com/aredridel/mixed-fixtures#readme",
+  "dependencies": {
+    "fs-extra-promise": "^0.4.1"
+  },
+  "devDependencies": {
+    "tap": "^8.0.1",
+    "with-fixtures": "^1.2.0"
+  }
+}
